@@ -1,0 +1,303 @@
+.logoIcon {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 4px;
+  transform: scale(1.409);
+}
+.wrapperLogo {
+  height: 32.6px;
+  width: 32.3px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.typeIcon {
+  margin-bottom: 0;
+  height: 18.8px;
+  width: 107.1px;
+  position: relative;
+  flex-shrink: 0;
+}
+.typeWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.scanCrypto {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.99em;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: inherit;
+  display: inline-block;
+  min-width: 115px;
+  flex-shrink: 0;
+}
+.scanCryptoContainer,
+.scanCryptoContainerWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.scanCryptoContainerWrapper {
+  padding: 1.9px 0 0;
+}
+.desktop1Inner,
+.wrapperLogoParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.wrapperLogoParent {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: 8.1px;
+}
+.desktop1Inner {
+  width: 396px;
+  height: 36.7px;
+  justify-content: center;
+  padding: 0 0 0 var(--padding-5xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.image1Icon {
+  height: 705px;
+  width: 396px;
+  position: relative;
+  border-radius: var(--br-174xl);
+  object-fit: cover;
+  display: none;
+  mix-blend-mode: normal;
+  max-width: 100%;
+  z-index: 0;
+}
+.crypto,
+.scan {
+  margin: 0;
+}
+.scanCrypto1 {
+  position: relative;
+  line-height: 53.8px;
+  text-transform: uppercase;
+  font-weight: 900;
+  text-shadow: 0 4px 35.1px #000;
+  z-index: 1;
+}
+.image1Icon1,
+.image2Icon {
+  height: 217px;
+  width: 387px;
+  position: absolute;
+  margin: 0 !important;
+  object-fit: cover;
+  mix-blend-mode: screen;
+  z-index: 2;
+}
+.image1Icon1 {
+  top: 131px;
+  left: -332px;
+}
+.image2Icon {
+  right: -363px;
+  bottom: 43px;
+}
+.loadingOpen {
+  height: 705px;
+  border-radius: var(--br-174xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-121xl) 75px var(--padding-121xl) 76px;
+  box-sizing: border-box;
+  position: relative;
+  background-image: url(/public/image-1@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 100%;
+}
+.downloadCloud02Icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.download {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 74px;
+}
+.buttons {
+  border-radius: var(--br-81xl);
+  background-color: #cff002;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 12px var(--padding-xl);
+  gap: var(--gap-3xs);
+  cursor: pointer;
+}
+.howItWork {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 89px;
+}
+.buttons1,
+.buttonsWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttons1 {
+  align-self: stretch;
+  border-radius: var(--br-81xl);
+  border: 2px solid var(--color-white);
+  flex-direction: row;
+  padding: 9px 18px;
+}
+.buttonsWrapper {
+  width: 129px;
+  flex-direction: column;
+  padding: 1px 0 0;
+  box-sizing: border-box;
+  color: var(--color-white);
+}
+.headphones01Icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.badgeDot {
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 2px;
+  display: none;
+}
+.buttonsParent,
+.iconButton {
+  display: flex;
+  flex-direction: row;
+}
+.iconButton {
+  height: 48px;
+  width: 48px;
+  border-radius: var(--br-81xl);
+  border: 2px solid var(--color-white);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs);
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.buttonsParent {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.version40 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 81px;
+}
+.version40Wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  color: var(--color-white);
+}
+.buttonsContainer,
+.buttonsContainerWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.buttonsContainer {
+  flex: 1;
+  flex-direction: column;
+  gap: 17px;
+}
+.buttonsContainerWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 24px 0 23px;
+  box-sizing: border-box;
+  font-size: var(--font-size-base);
+  color: #000;
+}
+.desktop1,
+.loadingOpenParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.loadingOpenParent {
+  width: 396px;
+  align-items: flex-start;
+  max-width: 100%;
+  font-size: 61.5px;
+  font-family: var(--font-avenir);
+}
+.desktop1 {
+  width: 100%;
+  position: relative;
+  background-color: #0c1210;
+  overflow: hidden;
+  align-items: center;
+  padding: 80px var(--padding-xl) 73px;
+  box-sizing: border-box;
+  gap: 42.3px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 6.7px;
+  color: var(--color-white);
+  font-family: var(--font-actor);
+}
+@media screen and (max-width: 750px) {
+  .scanCrypto1 {
+    font-size: 49px;
+    line-height: 43px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .scanCrypto1 {
+    font-size: 37px;
+    line-height: 32px;
+  }
+  .loadingOpen {
+    padding: 91px var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .buttonsParent {
+    flex-wrap: wrap;
+  }
+  .desktop1 {
+    gap: 21px;
+  }
+}
